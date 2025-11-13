@@ -1,56 +1,89 @@
-<main>
-    <h2 id="characters">Character Images and Descriptions</h2>
-    <div class="character">
-        <img src="https://via.placeholder.com/250" alt="Rover standing on a cliff, looking at the horizon">
-        <p><strong>Rover:</strong> The main protagonist who awakens to rediscover the fallen world.</p>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuthering Waves Fan Page</title>
 
-    <div class="character">
-        <img src="https://via.placeholder.com/250" alt="Verina using nature magic to heal">
-        <p><strong>Verina:</strong> A talented Resonator with the power of nature and healing.</p>
-    </div>
+    <!-- Link to your CSS -->
+    <link rel="stylesheet" href="style.css">
 
-    <!-- ABOUT -->
-    <section id="about" aria-labelledby="about-heading">
-        <h2 id="about-heading">About the Game</h2>
-        <p>
-            Wuthering Waves is an open-world action RPG where players explore, battle, and uncover mysteries. 
-            This fan page highlights favorite characters, fan art, and resources for new players.
-        </p>
-    </section>
+    <!-- Optional font or icon links -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
 
-    <!-- GALLERY -->
-    <section id="gallery" aria-labelledby="gallery-heading">
-        <h2 id="gallery-heading">Gallery</h2>
-        <p>Fan art and screenshots (click to view larger).</p>
-        <div class="gallery-grid">
-            <a href="https://via.placeholder.com/800" aria-label="Open Rover full image">
-                <img src="https://via.placeholder.com/300" alt="Rover artwork thumbnail">
-            </a>
-            <a href="https://via.placeholder.com/800" aria-label="Open Verina full image">
-                <img src="https://via.placeholder.com/300" alt="Verina artwork thumbnail">
-            </a>
-            <!-- add more thumbnails as needed -->
+<body>
+    <header>
+        <h1>Wuthering Waves Fan Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="characters">Character Images and Descriptions</h2>
+        <div class="character">
+            <img src="https://via.placeholder.com/250" alt="Rover standing on a cliff, looking at the horizon">
+            <p><strong>Rover:</strong> The main protagonist who awakens to rediscover the fallen world.</p>
         </div>
-    </section>
 
-    <!-- CONTACT -->
-    <section id="contact" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact</h2>
-        <p>If you have fan art or feedback, send it here:</p>
-        <form action="#" method="post" aria-describedby="contact-desc">
-            <div id="contact-desc" class="sr-only">Send your name, email, and message to the site owner.</div>
+        <div class="character">
+            <img src="https://via.placeholder.com/250" alt="Verina using nature magic to heal">
+            <p><strong>Verina:</strong> A talented Resonator with the power of nature and healing.</p>
+        </div>
 
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required>
+        <!-- ABOUT -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About the Game</h2>
+            <p>
+                Wuthering Waves is an open-world action RPG where players explore, battle, and uncover mysteries. 
+                This fan page highlights favorite characters, fan art, and resources for new players.
+            </p>
+        </section>
 
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" required>
+        <!-- GALLERY -->
+        <section id="gallery" aria-labelledby="gallery-heading">
+            <h2 id="gallery-heading">Gallery</h2>
+            <p>Fan art and screenshots (click to view larger).</p>
+            <div class="gallery-grid">
+                <a href="https://via.placeholder.com/800" aria-label="Open Rover full image">
+                    <img src="https://via.placeholder.com/300" alt="Rover artwork thumbnail">
+                </a>
+                <a href="https://via.placeholder.com/800" aria-label="Open Verina full image">
+                    <img src="https://via.placeholder.com/300" alt="Verina artwork thumbnail">
+                </a>
+                <!-- add more thumbnails as needed -->
+            </div>
+        </section>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+        <!-- CONTACT -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p>If you have fan art or feedback, send it here:</p>
+            <form action="#" method="post" aria-describedby="contact-desc">
+                <div id="contact-desc" class="sr-only">Send your name, email, and message to the site owner.</div>
 
-            <button type="submit">Send</button>
-        </form>
-    </section>
-</main>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Wuthering Waves Fan Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
